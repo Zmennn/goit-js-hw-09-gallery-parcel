@@ -1,0 +1,24 @@
+{
+  "name": "goit-js-hw-09-gallery-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "dev": "parcel <your entry file>",
+    "build": "parcel build <your entry file>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zmennn/goit-js-hw-09-gallery-parcel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zmennn/goit-js-hw-09-gallery-parcel/issues"
+  },
+  "homepage": "https://github.com/Zmennn/goit-js-hw-09-gallery-parcel#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
