@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-09-gallery-parcel/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -17,8 +19,10 @@
   "bugs": {
     "url": "https://github.com/Zmennn/goit-js-hw-09-gallery-parcel/issues"
   },
-  "homepage": "https://github.com/Zmennn/goit-js-hw-09-gallery-parcel#readme",
+  "homepage": "https://Zmennn.github.io/goit-js-hw-09-gallery-parcel",
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "parcel-bundler": "^1.12.5"
-  }
+  },
+  "dependencies": {}
 }
